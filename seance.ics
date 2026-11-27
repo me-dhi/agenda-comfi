@@ -1,0 +1,451 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agenda-an//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Séance publique – AN
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+X-WR-CALDESC:Généré automatiquement le 20261127T152731Z depuis https://www.assemblee-nationale.fr/dyn/seance-publique
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31057
+DTSTAMP:20261127T135820Z
+DTSTART:20261120T080000Z
+SUMMARY:Séance publique (71e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République unie de Tanzanie relatif aux services aériens\nDiscussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement d’Antigua-et-Barbuda relatif aux services aériens\nSuite de la discussion du projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement\n
+DTEND:20261120T112000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31063
+DTSTAMP:20261127T141327Z
+DTSTART:20261124T080000Z
+SUMMARY:Première séance publique (72e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions orales sans débat (salle Lamartine)
+DTEND:20261124T112500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31064
+DTSTAMP:20261127T141328Z
+DTSTART:20261124T140000Z
+SUMMARY:Deuxième séance publique (73e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nExplications de vote et vote par scrutin public sur le projet de loi, adopté par le Sénat, visant la relance et la décentralisation du logement\nDiscussion, sur le rapport de la commission mixte paritaire, du projet de loi de finances de fin de gestion pour 2026\n\n
+DTEND:20261124T182500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31065
+DTSTAMP:20261127T142008Z
+DTSTART:20261124T203000Z
+SUMMARY:Troisième séance publique (74e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Débat avec invités extérieurs sur le thème : « Bilan des réformes du baccalauréat et du lycée, dite réforme Blanquer » (salle Lamartine)\n\n
+DTEND:20261124T222500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31066
+DTSTAMP:20261127T142008Z
+DTSTART:20261125T130000Z
+SUMMARY:Première séance publique (75e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nDébat sur le rapport de l'Office parlementaire d'évaluation des choix scientifiques et technologiques (Opecst) sur la décarbonation des transports terrestres\nDiscussion de la proposition de résolution européenne relative à la révision de la directive « Services de médias audiovisuels » et à la défense de l’exception culturelle européenne\nDiscussion de la proposition de résolution européenne visant à réviser la définition de l’œuvre européenne\nDiscussion de la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet\n\n
+DTEND:20261125T190000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31067
+DTSTAMP:20261127T142701Z
+DTSTART:20261125T203000Z
+SUMMARY:Deuxième séance publique (76e)
+LOCATION:Assemblée nationale
+DESCRIPTION:\nSuite de la discussion de la proposition de résolution européenne en faveur d’un traité juridiquement contraignant prévoyant des interdictions et des réglementations aux systèmes d'armes autonomes et de l’élaboration d’une position commune européenne sur ce sujet\n\n\n
+DTEND:20261125T213500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31068
+DTSTAMP:20261127T141331Z
+DTSTART:20261126T080000Z
+SUMMARY:Première séance publique (77e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion de la proposition de résolution, déposée en application de l'article 34-1 de la Constitution, visant à faire de l’égalité entre les territoires une priorité de l’ensemble des politiques publiques\nDiscussion de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales\n\n\n\n\n\n\n\n
+DTEND:20261126T120000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31069
+DTSTAMP:20261127T141332Z
+DTSTART:20261126T140000Z
+SUMMARY:Deuxième séance publique (78e)
+LOCATION:Assemblée nationale
+DESCRIPTION:\nSuite de la discussion de la proposition de loi visant à maintenir les pharmacies existantes dans les communes rurales\nDiscussion de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes\n\n\n\n\n\n\n\n
+DTEND:20261126T190000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31070
+DTSTAMP:20261127T142645Z
+DTSTART:20261126T203000Z
+SUMMARY:Troisième séance publique (79e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi visant à suspendre les prestations sociales pour les fraudeurs multirécidivistes\n\n\nSuite de la discussion de la proposition de loi visant à garantir l’exécution effective d’une peine minimale dès la première condamnation pour violences volontaires\nSuite de la discussion de la proposition de loi visant à suspendre les droits aux prestations et aux aides publiques pour les personnes reconnues coupables d’exactions lors de rassemblements ou de manifestations\nSuite de la discussion de la proposition de loi instaurant la responsabilité pénale des mineurs à 16 ans et renforçant la responsabilité pénale des parents\nSuite de la discussion de la proposition de loi visant à lever les contraintes pesant sur le foncier\nSuite de la discussion de la proposition de loi visant à limiter à deux ans le versement du revenu de solidarité active pour les personnes aptes à travailler\n\n
+DTEND:20261126T222000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31099
+DTSTAMP:20261127T142454Z
+DTSTART:20261130T150000Z
+SUMMARY:Première séance publique (80e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion de la proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement \nDiscussion de la proposition de loi visant à renforcer les interdictions de détenir un animal par la création d’un fichier national \nDiscussion de la proposition de loi visant à favoriser le travail en continu et en journée via la commande publique afin d’améliorer les conditions relatives au domaine social et à l’emploi  \nDiscussion de la proposition de loi visant à moderniser les communications d’urgence \n
+DTEND:20261130T160000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31100
+DTSTAMP:20261127T142013Z
+DTSTART:20261130T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion d'une proposition de loi visant à assurer une meilleure équité en matière de pension alimentaire pour les familles monoparentales en cas de non-respect du droit de visite et d’hébergement \nSuite de la discussion d'une proposition de loi visant à renforcer les interdictions de détenir un animal par la création d’un fichier national \nSuite de la discussion d'une proposition de loi visant à favoriser le travail en continu et en journée via la commande publique afin d’améliorer les conditions relatives au domaine social et à l’emploi  \nSuite de la discussion d'une proposition de loi visant à moderniser les communications d’urgence \n
+DTEND:20261130T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31104
+DTSTAMP:20261127T135456Z
+DTSTART:20261201T140000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nÉlection de deux juges suppléants à la Cour de justice de la République\nÉventuellement, discussion, sur le rapport de la commission mixte paritaire, du projet de loi de financement de la sécurité sociale pour 2027\nDiscussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nDiscussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nDiscussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nDiscussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nDiscussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nDiscussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261201T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31105
+DTSTAMP:20261127T135457Z
+DTSTART:20261201T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261201T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31106
+DTSTAMP:20261127T141338Z
+DTSTART:20261202T130000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nPrestation de serment de deux juges suppléants à la Cour de justice de la République\nSuite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261202T140000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31107
+DTSTAMP:20261127T141338Z
+DTSTART:20261202T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261202T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31101
+DTSTAMP:20261127T142016Z
+DTSTART:20261203T080000Z
+SUMMARY:Première séance publique (1e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à faire reconnaître l’origine professionnelle du cancer du sein\nDiscussion de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant \nDiscussion de la proposition de loi visant à renforcer le droit de retrait en période de canicule et à instaurer un congé climatique \nDiscussion de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés \nDiscussion de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases \nDiscussion de la proposition de loi visant à la réparation des préjudices résultant de la traite et de l’esclavage \nDiscussion de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré \nDiscussion, en deuxième lecture, de la proposition de loi visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile \nDiscussion de la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution \nDiscussion de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire\n
+DTEND:20261203T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31102
+DTSTAMP:20261127T142439Z
+DTSTART:20261203T140000Z
+SUMMARY:Deuxième séance publique (2e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à faire reconnaître l’origine professionnelle du cancer du sein\nSuite de la discussion de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant \nSuite de la discussion de la proposition de loi visant à renforcer le droit de retrait en période de canicule et à instaurer un congé climatique \nSuite de la discussion de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés \nSuite de la discussion de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases \nSuite de la discussion de la proposition de loi visant à la réparation des préjudices résultant de la traite et de l’esclavage \nSuite de la discussion de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré \nSuite de la discussion, en deuxième lecture, de la proposition de loi visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile \nSuite de la discussion de la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution \nSuite de la discussion de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire\n
+DTEND:20261203T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31103
+DTSTAMP:20261127T142438Z
+DTSTART:20261203T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de résolution, déposée en application de l’article 34-1 de la Constitution, visant à faire reconnaître l’origine professionnelle du cancer du sein\nSuite de la discussion de la proposition de loi visant à garantir l’accès à un panier diversifié de denrées alimentaires favorables à la santé et vendues à prix coûtant \nSuite de la discussion de la proposition de loi visant à renforcer le droit de retrait en période de canicule et à instaurer un congé climatique \nSuite de la discussion de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés \nSuite de la discussion de la proposition de loi visant à protéger nos forêts en encadrant les coupes rases \nSuite de la discussion de la proposition de loi visant à la réparation des préjudices résultant de la traite et de l’esclavage \nSuite de la discussion de la proposition de loi visant à créer un parc social d’un million d’automobiles électriques à loyer modéré \nSuite de la discussion, en deuxième lecture, de la proposition de loi visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile \nSuite de la discussion de la proposition de loi constitutionnelle visant à consacrer l’exclusivité de la révision constitutionnelle par la procédure prévue à l’article 89 de la Constitution \nSuite de la discussion de la proposition de loi visant à instaurer un plan décennal de rénovation du bâti scolaire\n
+DTEND:20261203T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31138
+DTSTAMP:20261127T141342Z
+DTSTART:20261204T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261204T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31139
+DTSTAMP:20261127T142711Z
+DTSTART:20261204T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261204T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31140
+DTSTAMP:20261127T135457Z
+DTSTART:20261204T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, modifiée par le Sénat, visant à reconnaître les victimes de l’exposition aux essais nucléaires français et à améliorer leur indemnisation\nSuite de la discussion de la proposition de loi visant à interdire la vente de chiens et de chats dans les foires et salons \nSuite de la discussion de la proposition de loi visant à la création d’un ordre national des audioprothésistes \nSuite de la discussion de la proposition de loi visant à autoriser le diagnostic préimplantatoire des aneuploïdies au bénéfice des couples, et des femmes engagées dans une démarche d’assistance médicale à la procréation \nSuite de la discussion de la proposition de loi visant à réformer la loi sur les fraudes en matière artistique\nSuite de la discussion, en deuxième lecture, de la proposition de loi, adoptée par le Sénat, visant à reconnaître une politique nationale d’adaptation au changement climatique et adapter les mécanismes d’assurance \n
+DTEND:20261204T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31110
+DTSTAMP:20261127T142021Z
+DTSTART:20261207T150000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’avenant à la convention entre le Gouvernement de la République Française et le Gouvernement de la République de l’Inde du 29 septembre 1992 en vue d’éviter les doubles impositions et de prévenir l’évasion fiscale en matière d’impôts sur le revenu et sur la fortune\n\nDiscussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs au cadre de déclaration applicable aux crypto-actifs, et l’approbation de l’addendum à l’accord multilatéral entre autorités compétentes concernant l’échange automatique de renseignements relatifs aux comptes financiers\nÉventuellement, discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à mettre fin au devoir conjugal\nDiscussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire \nDiscussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles\n
+DTEND:20261207T160000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31111
+DTSTAMP:20261127T142023Z
+DTSTART:20261207T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Éventuellement, suite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à mettre fin au devoir conjugal\nsuite de la discussion, sur le rapport de la commission mixte paritaire, de la proposition de loi visant à améliorer les moyens d'action de l'Agence de gestion et de recouvrement des avoirs saisis et confisqués et à faciliter l'exercice des missions d'expert judiciaire \nSuite de la discussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles\n
+DTEND:20261207T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31112
+DTSTAMP:20261127T142027Z
+DTSTART:20261208T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions orales sans débat (salle Larmartine)
+DTEND:20261208T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31113
+DTSTAMP:20261127T142715Z
+DTSTART:20261208T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nÉventuellement, discussion, sur le rapport de la commission mixte paritaire, du projet de loi relatif à la protection des enfants\nSuite de la discussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles\nDiscussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique\n
+DTEND:20261208T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31114
+DTSTAMP:20261127T142637Z
+DTSTART:20261208T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi, adoptée par le Sénat, visant à faciliter la création et le fonctionnement des communes nouvelles\nSuite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique\n
+DTEND:20261208T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31115
+DTSTAMP:20261127T142637Z
+DTSTART:20261209T130000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nDiscussion du projet de loi, adopté par le Sénat, autorisant la ratification de l'accord de protection des investissements entre l'Union européenne et ses États membres, d'une part, et la République socialiste du Vietnam, d'autre part\nDiscussion du projet de loi, adopté par le Sénat, autorisant la ratification de l'accord de passation conjointe de marché en vue de l'acquisition d'une plateforme centrale commune pour le mécanisme d'ajustement carbone aux frontières\nSuite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique\n
+DTEND:20261209T140000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31116
+DTSTAMP:20261127T142637Z
+DTSTART:20261209T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique
+DTEND:20261209T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31117
+DTSTAMP:20261127T141349Z
+DTSTART:20261210T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive \nDiscussion de la proposition de loi visant à améliorer l’efficacité de l’État au niveau local \nDiscussion de la proposition de loi visant à faciliter le financement de la rénovation énergétique par les économies d’énergie \nDiscussion de la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois \nDiscussion de la proposition de loi, adoptée par le Sénat, relative à la sécurisation des marchés publics numériques \nDiscussion de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie \nDiscussion de la proposition de loi visant à instaurer une négociation obligatoire sur la situation des parents isolés \nDiscussion de la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF\nDiscussion de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France \n
+DTEND:20261210T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31118
+DTSTAMP:20261127T142718Z
+DTSTART:20261210T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive \nSuite de la discussion de la proposition de loi visant à améliorer l’efficacité de l’État au niveau local \nSuite de la discussion de la proposition de loi visant à faciliter le financement de la rénovation énergétique par les économies d’énergie \nSuite de la discussion de la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois \nSuite de la discussion de la proposition de loi, adoptée par le Sénat, relative à la sécurisation des marchés publics numériques \nSuite de la discussion de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie \nSuite de la discussion de la proposition de loi visant à instaurer une négociation obligatoire sur la situation des parents isolés \nSuite de la discussion de la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF\nSuite de la discussion de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France \n
+DTEND:20261210T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31119
+DTSTAMP:20261127T142719Z
+DTSTART:20261210T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion de la proposition de loi constitutionnelle visant à instaurer une motion de censure constructive \nSuite de la discussion de la proposition de loi visant à améliorer l’efficacité de l’État au niveau local \nSuite de la discussion de la proposition de loi visant à faciliter le financement de la rénovation énergétique par les économies d’énergie \nSuite de la discussion de la proposition de loi visant à mieux protéger, mieux gérer et mieux valoriser la forêt et ses produits pour répondre aux enjeux de lutte contre le changement climatique, d’adaptation à ses effets et de stockage du carbone dans les matériaux en bois \nSuite de la discussion de la proposition de loi, adoptée par le Sénat, relative à la sécurisation des marchés publics numériques \nSuite de la discussion de la proposition de loi visant à renforcer la protection et l’accompagnement des dirigeants d’entreprise confrontés à la maladie \nSuite de la discussion de la proposition de loi visant à instaurer une négociation obligatoire sur la situation des parents isolés \nSuite de la discussion de la proposition de loi, adoptée par le Sénat, relative aux modalités de recouvrement de la contribution aux frais de garderie et de la contribution additionnelle versées à l’Office national des forêts (ONF) par les collectivités territoriales et personnes morales propriétaires de bois et forêts relevant du régime forestier et à la composition du conseil d’administration de l’ONF\nSuite de la discussion de la proposition de loi, adoptée par le Sénat, visant à conforter la filière cinématographique en France \n
+DTEND:20261210T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31120
+DTSTAMP:20261127T141352Z
+DTSTART:20261211T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique
+DTEND:20261211T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31121
+DTSTAMP:20261127T142637Z
+DTSTART:20261211T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique
+DTEND:20261211T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31122
+DTSTAMP:20261127T141353Z
+DTSTART:20261211T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat, relatif à la lutte contre les ingérences étrangères dans la vie démocratique
+DTEND:20261211T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31127
+DTSTAMP:20261127T142049Z
+DTSTART:20261215T140000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nÉventuellement, discussion, sur le rapport de la commission mixte paritaire, du projet de loi visant la relance et la décentralisation du logement\nDiscussion, sous réserve de leur dépôt, des conclusions de la commission mixte paritaire sur le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité \nDiscussion, sous réserve de leur dépôt, des conclusions de la commission mixte paritaire sur la proposition de loi visant à garantir l’information et la protection effective des victimes de violences sexistes et sexuelles lors de la libération de leur agresseur\nDiscussion du projet de loi, adopté par le Sénat, relatif à la régulation de l’enseignement supérieur privé\n
+DTEND:20261215T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31128
+DTSTAMP:20261127T142053Z
+DTSTART:20261215T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:\n\n\nSuite de la discussion du projet de loi, adopté par le Sénat, relatif à la régulation de l’enseignement supérieur privé\n
+DTEND:20261215T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31129
+DTSTAMP:20261127T142108Z
+DTSTART:20261216T130000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Questions au Gouvernement\nDiscussion du projet de loi, adopté par le Sénat, autorisant l’approbation de l’accord entre le Gouvernement de la République française et le Gouvernement de la République du Kazakhstan sur la réadmission des personnes\nDiscussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, autorisant l’approbation de la convention entre le Gouvernement de la République française et le Gouvernement de la République de Chypre pour l’élimination de la double imposition en matière d’impôts sur le revenu et la prévention de l’évasion et de la fraude fiscales\nÉventuellement, discussion, sur le rapport de la CMP, de la proposition de loi visant au renforcement de l’attractivité de l’épargne salariale et à la mise en œuvre d’une procédure de déblocage exceptionnelle\nÉventuellement, discussion, sur le rapport de la CMP, de la proposition de loi visant à moderniser et rééquilibrer le fonctionnement du titre-restaurant \nSuite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé\n
+DTEND:20261216T140000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31130
+DTSTAMP:20261127T142724Z
+DTSTART:20261216T203000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261216T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31131
+DTSTAMP:20261127T141357Z
+DTSTART:20261217T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261217T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31132
+DTSTAMP:20261127T141358Z
+DTSTART:20261217T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261217T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31133
+DTSTAMP:20261127T142728Z
+DTSTART:20261217T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261217T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31135
+DTSTAMP:20261127T141359Z
+DTSTART:20261218T080000Z
+SUMMARY:Première séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261218T090000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31136
+DTSTAMP:20261127T141400Z
+DTSTART:20261218T140000Z
+SUMMARY:Deuxième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261218T150000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDS31137
+DTSTAMP:20261127T142730Z
+DTSTART:20261218T203000Z
+SUMMARY:Troisième séance publique (e)
+LOCATION:Assemblée nationale
+DESCRIPTION:Suite de la discussion du projet de loi, adopté par le Sénat après engagement de la procédure accélérée, relatif à la régulation de l’enseignement supérieur privé
+DTEND:20261218T213000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
