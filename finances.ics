@@ -1,0 +1,411 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//agenda-cofi//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Commission des finances – AN
+X-WR-TIMEZONE:Europe/Paris
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+X-WR-CALDESC:Généré automatiquement le 20261127T150249Z depuis https://www.assemblee-nationale.fr/dyn/17/organes/commissions-permanentes/finances/agenda
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461250
+DTSTAMP:20261127T135206Z
+DTSTART:20261007T130000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261007T180500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461251
+DTSTAMP:20261127T135205Z
+DTSTART:20261007T190000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261007T220000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461253
+DTSTAMP:20261127T135204Z
+DTSTART:20261008T071500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261008T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461254
+DTSTAMP:20261127T135203Z
+DTSTART:20261008T123500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261008T180000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461252
+DTSTAMP:20261127T135202Z
+DTSTART:20261008T190000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261008T220500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461255
+DTSTAMP:20261127T140244Z
+DTSTART:20261009T070000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261009T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461256
+DTSTAMP:20261127T135200Z
+DTSTART:20261009T122500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261009T192500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461433
+DTSTAMP:20261127T135159Z
+DTSTART:20261012T153000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, pour avis, du projet de décret d’avance communiqué par le gouvernement le 5 octobre 2026 en application de l’article 13 de la loi organique relative aux lois de finances (M. Philippe Juvin, rapporteur général).
+DTEND:20261012T155000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461376
+DTSTAMP:20261127T132925Z
+DTSTART:20261013T123000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Nomination d’un rapporteur sur la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) ;\nExamen, en application de l’article 88 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).\n
+DTEND:20261013T123500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461377
+DTSTAMP:20261127T134859Z
+DTSTART:20261014T070500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen pour avis du projet de loi de financement de la Sécurité sociale pour 2027 (n° 3211) (M. Nicolas Tryzna, rapporteur pour avis).
+DTEND:20261014T085000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461432
+DTSTAMP:20261127T135156Z
+DTSTART:20261014T090000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Audition de M. Philippe-Pierre Cabourdin, conseiller maître, président de section à la 5e chambre, sur l’enquête demandée à la Cour des comptes en application du 2° de l’article 58 de la LOLF relative à l’encadrement des loyers.
+DTEND:20261014T100500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461461
+DTSTAMP:20261127T135155Z
+DTSTART:20261019T123000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261019T123500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461327
+DTSTAMP:20261127T140238Z
+DTSTART:20261020T143500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Nomination d'un rapporteur spécial\nExamen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nRecherche et enseignement supérieur :\nEnseignement supérieur et vie étudiante (M. Charles Sitzenstuhl, rapporteur spécial) ;\nRecherche (MM. Mickaël Bouloux et Pierre Henriet, rapporteurs spéciaux) ;\nAide publique au développement ; Prêts à des États étrangers (M. Corentin Le Fur, rapporteur spécial).\n
+DTEND:20261020T184500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461328
+DTSTAMP:20261127T135153Z
+DTSTART:20261020T194500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nSanté (M. Nicolas Ray, rapporteur spécial).\n
+DTEND:20261020T221000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461329
+DTSTAMP:20261127T140235Z
+DTSTART:20261021T070500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nSanté (M. Nicolas RAY, rapporteur spécial)\nSolidarité, insertion et égalité des chances (Mme Perrine Goulet, rapporteure spéciale) ;\nExamen de la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure).\n
+DTEND:20261021T111000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461331
+DTSTAMP:20261127T140233Z
+DTSTART:20261021T131000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nécologie, développement et mobilité durables :\nénergie, climat et après-mines ; service public de l’énergie ; sûreté nucléaire et radioprotection ; soutien financier au nouveau nucléaire français ; financement des aides aux collectivités pour l’électrification rurale (M. Paul Midy, rapporteur spécial) ;\nInfrastructures et services de transports ; Contrôle et exploitation aériens (Mme Christine Arrighi, rapporteure spéciale) ;\nPaysages, eau et biodiversité ; Prévention des risques ; Expertise, information géographique et météorologique ; Conduite et pilotage des politiques de l’écologie, du développement et des mobilités durables : Fonds d’accélération de la transition écologique dans les territoires (M. Tristan Lahais et Mme Eva Sas, rapporteurs spéciaux) ;\nMer, pêche et aquaculture (M. Matthias Renault, rapporteur spécial).\n
+DTEND:20261021T182500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461332
+DTSTAMP:20261127T135150Z
+DTSTART:20261021T193500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nCulture :\nCréation ; transmission des savoirs et démocratisation de la culture (M. Jean-René Cazeneuve, rapporteur spécial) ;\nPatrimoines (M. Philippe Lottiaux, rapporteur spécial).\nMédias, livre et industries culturelles ; Avances à l’audiovisuel public (M. Denis Masséglia, rapporteur spécial)\n
+DTEND:20261021T221000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461333
+DTSTAMP:20261127T135149Z
+DTSTART:20261022T073000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nAgriculture et alimentation ; forêt ; développement agricole et rural (M. Vincent Trébuchet, rapporteur spécial).\n
+DTEND:20261022T102000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461334
+DTSTAMP:20261127T135148Z
+DTSTART:20261022T123500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nDirection de l'action du gouvernement; publications officielles et information administrative (Mme Marie-Christine Dalloz, rapporteur spécial) ;\nAction extérieure de l’État (M. Karim Ben Cheikh, rapporteur spécial) ;\nRemboursements et dégrèvements (Mme Christine Pirès Beaune, rapporteure spéciale) ;\nMonde combattant, mémoire et liens avec la Nation (Mme Sophie-Laurence Roy, rapporteure spéciale).\n
+DTEND:20261022T172000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461335
+DTSTAMP:20261127T140229Z
+DTSTART:20261022T190500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nDéfense :\nBudget opérationnel de la défense (M. Emeric Salmon, rapporteur spécial) ;\nPréparation de l’avenir.\n
+DTEND:20261022T204000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461336
+DTSTAMP:20261127T140228Z
+DTSTART:20261023T073500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nCohésion des territoires : \nLogement et hébergement d’urgence (M. François Jolivet, rapporteur spécial) ;\nPolitique des territoires (Mme Shéhérazade Bentorki, rapporteure spéciale) ;\nAménagement des territoires (M. Laurent Baumel et Mme Sophie Mette, rapporteurs spéciaux).\n
+DTEND:20261023T111000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461337
+DTSTAMP:20261127T135144Z
+DTSTART:20261023T123500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nTransformation et fonction publiques ; Crédits non répartis (Mme Claire Marais-BeuilL, rapporteure spéciale) ;\nEngagements financiers de l’État (M. Kévin Mauvieux, rapporteur spécial) ;\nParticipations financières de l’État ; Prêts et avances à divers services de l'État ou organismes gérant des services publics (M. Philippe Brun, rapporteur spécial) ;\nGestion des finances publiques et lutte contre les fraudes ; Investir pour la France de 2030 (M. Carlos-Martens Bilongo, rapporteur spécial) ;\nGestion des finances publiques et lutte contre les fraudes : lutte contre l’évasion fiscale (Mme Mathilde Feld et M. Nicolas Sansu, rapporteurs spéciaux) ;\nGestion du patrimoine immobilier de l’État (M. Didier Padey, rapporteur spécial) ;\nJustice (M. Thierry Liger, rapporteur spécial).\n
+DTEND:20261023T170000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461344
+DTSTAMP:20261127T140225Z
+DTSTART:20261026T080500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nImmigration, asile et intégration (M. Charles Rodwell, rapporteur spécial) ;\nSport, jeunesse et vie associative (M. Benjamin Dirx, rapporteur spécial).\n
+DTEND:20261026T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461531
+DTSTAMP:20261127T140224Z
+DTSTART:20261026T132500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, en application de l’article 91 du Règlement, des amendements à la première partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général).
+DTEND:20261026T133000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461345
+DTSTAMP:20261127T140223Z
+DTSTART:20261026T133000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nOutre-mer (M. Christian Baptiste, rapporteur spécial) ;\nAdministration générale et territoriale de l’État (M. Jean-Pierre Bataille, rapporteur spécial) \n
+DTEND:20261026T185000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461346
+DTSTAMP:20261127T135140Z
+DTSTART:20261026T200000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nSécurités : \nPolice nationale, gendarmerie nationale, sécurité et éducation routières ; Contrôle de la circulation et du stationnement routiers (Mme Constance Le Grip, rapporteure spéciale) ;\nSécurité civile (M. Damien Maudet Mme Sophie Pantel, rapporteurs spéciaux).\n
+DTEND:20261026T232500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461347
+DTSTAMP:20261127T140221Z
+DTSTART:20261028T080500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission ;\nRelations avec les collectivités territoriales ; Avances aux collectivités territoriales et aux collectivités régies par les articles 73, 74, et 76 de la Constitution (M. Emmanuel Mandon, rapporteur spécial);\néconomie ;\nCommerce extérieur (M. Alexandre Dufosset, rapporteur spécial).\nDéveloppement des entreprises et régulations ; Plan « France Très haut débit » ; Prêt et avances à des particuliers ou à des organismes privés (M. Jacques Oberti, rapporteur spécial) ;\nStatistiques et études économiques ; Stratégies économiques ; Accords monétaires internationaux (M. Michel Castellani, rapporteur spécial) ;\nTourisme (M. Jocelyn Dessigny, rapporteur spécial).\n
+DTEND:20261028T121000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461342
+DTSTAMP:20261127T135138Z
+DTSTART:20261029T080500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits de la mission :\nPouvoirs publics (Mme Marianne Maximi, rapporteure spéciale) ;\nEnseignement scolaire (M. Anthony Boulogne, rapporteur spécial).\n
+DTEND:20261029T121500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461343
+DTSTAMP:20261127T135112Z
+DTSTART:20261029T134500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant un contrôle réel des investissements étrangers en France (n° 3177) (Mme Aurélie Trouvé, rapporteure) ;\nSuite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) : examen et vote sur les crédits des missions :\nTravail, emploi et administration des ministères sociaux (M. Emmanuel Maurel et Mme Estelle Mercier, rapporteurs spéciaux) ;\nConseil et contrôle de l’État (M. Daniel Labaronne, rapporteur spécial) ;\nRégimes sociaux de retraite ; pensions (M. Aurélien Le Coq, rapporteur spécial).\n
+DTEND:20261029T161000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461464
+DTSTAMP:20261127T135136Z
+DTSTART:20261104T081000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6241 – Palais Bourbon, 2ème sous-sol
+DESCRIPTION:Audition conjointe avec la commission des affaires économiques de M. Nicolas Dufourcq, directeur général de Bpifrance, sur le financement des entreprises.
+DTEND:20261104T095500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461465
+DTSTAMP:20261127T140217Z
+DTSTART:20261104T093000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Suite de l’examen de la seconde partie du projet de loi de finances pour 2027 (n° 3210) (M. Philippe Juvin, rapporteur général) : examen et vote des articles non rattachés et des articles de récapitulation.
+DTEND:20261104T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461568
+DTSTAMP:20261127T135336Z
+DTSTART:20261104T113500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Audition de MM. Roland Lescure, ministre de l’Économie, des finances et de la souveraineté industrielle énergétique et numérique et David Amiel, ministre de l'action et des comptes publics, sur le projet de loi de finances de fin de gestion pour 2026 (n° 3434).
+DTEND:20261104T124500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461569
+DTSTAMP:20261127T135108Z
+DTSTART:20261109T140000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen du projet de loi de finances de fin de gestion pour 2026 (n° 3434) (M. Philippe Juvin, rapporteur général).
+DTEND:20261109T155500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461613
+DTSTAMP:20261127T135107Z
+DTSTART:20261112T084500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Nomination de rapporteurs ;\nExamen, en application de l’article 88 du Règlement, des amendements au projet de loi de finances de fin de gestion pour 2026 (n° 3434) (M. Philippe Juvin, rapporteur général).\n
+DTEND:20261112T085000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461614
+DTSTAMP:20261127T140212Z
+DTSTART:20261118T083500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Nomination de rapporteurs.\nAudition de M. Jean-François Debat, président du Comité des finances locales et de représentants d'associations d'élus locaux : M. Jean-Luc Moudenc, président de France Urbaine ; Mme Véronique Louwagie, vice-présidente d’Intercommunalités de France ; M. Philippe Buisson, maire de Libourne, vice-président de Villes de France ; M. Jean-Léonce Dupont, président du département du Calvados , vice-président délégué de Départements de France; M. Romain Colas, vice-président de l’Association des Petites Villes de France ; M. Harold Huwart, vice-président du Conseil régional Centre-Val-de-Loire, représente Régions de France.\n
+DTEND:20261118T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461615
+DTSTAMP:20261127T140211Z
+DTSTART:20261125T080500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Audition, sous format de table ronde et conjointe avec la commission des Affaires économiques de Mme Maya Atig, directrice générale de la Fédération bancaire française, M. Patrick Artus, économiste, professeur à la Paris School of Economics, membre du Conseil scientifique de l’Autorité des marchés financiers et conseiller économique d’Ossiam, Mme Mireille Bruyère, maîtresse de conférences en sciences économiques à l'Université Toulouse-Jean Jaurès (Toulouse II), et de M. Thomas Grjebine, économiste, rapporteur général du Haut-commissariat à la Stratégie et au Plan, sur la situation économique et le financement des entreprises.
+DTEND:20261125T101500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461734
+DTSTAMP:20261127T135104Z
+DTSTART:20261125T101500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, en deuxième lecture, de la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie Laernoes, rapporteure).
+DTEND:20261125T110500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461735
+DTSTAMP:20261127T135128Z
+DTSTART:20261125T140500Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen de la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés (n° 3374) (M. Tristan Lahais, rapporteur).
+DTEND:20261125T152500Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461816
+DTSTAMP:20261127T135102Z
+DTSTART:20261202T083000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6350 – Palais Bourbon, 1er étage
+DESCRIPTION:Examen, en application de l’article 88 du Règlement, des amendements à la proposition de loi, rejetée par le Sénat, visant à mieux indemniser les dégâts sur les biens immobiliers causés par le retrait-gonflement de l’argile (n° 162) (Mme Julie LAERNOES, rapporteure) \nExamen, en application de l’article 88 du Règlement, des amendements à la proposition de loi visant à faire contribuer davantage les héritiers les plus fortunés (n° 3374) (M. Tristan LAHAIS, rapporteur) \nExamen de la proposition de loi visant à faciliter le financement de la rénovation énergétique par les économies d'énergie (n° 3412) (M. Éric MARTINEAU, rapporteur)\n
+DTEND:20261202T093000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:OMC_RUANR5L17S2027IDC461736
+DTSTAMP:20261127T135100Z
+DTSTART:20261202T100000Z
+SUMMARY:Réunion de la commission des finances
+LOCATION:Salle 6241 – Palais Bourbon, 2ème sous-sol
+DESCRIPTION:Audition, sous forme de table ronde sur le nouveau nucléaire et conjointe avec la commission des affaires économiques, de MM. Joël Barre, délégué interministériel au nouveau nucléaire, Kosta Kastrindis, directeur adjoint de la Banque des territoires et directeur des prêts du groupe Caisse des dépôts, et Claude Laruelle, directeur exécutif Groupe en charge de la direction finance et impact d’EDF.
+DTEND:20261202T110000Z
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
