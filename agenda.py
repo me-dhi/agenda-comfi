@@ -4,22 +4,26 @@ import re
 import sys
 import time
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+# --- Réglages ---------------------------------------------------------------
+FINANCES_URL = ("https://www.assemblee-nationale.fr/dyn/17/organes/"
+                "commissions-permanentes/finances/agenda")
+FINANCES_NB_PAGES = 4        # 10 réunions par page : ~40 réunions les plus récentes
 
-AGENDA_URL = ("https://www.assemblee-nationale.fr/dyn/17/organes/"
-              "commissions-permanentes/finances/agenda")
-NB_PAGES = 4               # 10 réunions par page : ~40 réunions les plus récentes
-FICHIER = Path("finances.ics")
-NOM_CALENDRIER = "Commission des finances – AN"
+AGENDA_JOUR_URL = "https://www2.assemblee-nationale.fr/agendas/les-agendas/{}"
+SEANCE_JOURS_AVANT = 7       # relit les séances des 7 derniers jours...
+SEANCE_JOURS_APRES = 28      # ...et des 4 semaines à venir
+
 DUREE_PAR_DEFAUT = timedelta(hours=2)   # si le .ics ne donne pas d'heure de fin
-PAUSE = 0.5                # secondes entre deux requêtes, par politesse
+PAUSE = 0.3                  # secondes entre deux requêtes, par politesse
+# ---------------------------------------------------------------------------
 
-
-ENTETES = {"User-Agent": "Mozilla/5.0 (agenda-cofi; abonnement calendrier personnel)"}
+ENTETES = {"User-Agent": "Mozilla/5.0 (agenda-an; abonnement calendrier personnel)"}
 RE_LIEN_ICS = re.compile(r"agendas/ics/(\d{4}-\d{2}-\d{2})/reunion/([A-Za-z0-9_]+)")
 RE_VEVENT = re.compile(r"BEGIN:VEVENT.*?END:VEVENT", re.S)
+ICS_URL = "https://www2.assemblee-nationale.fr/agendas/ics/{}/reunion/{}"
 
 
 def telecharger(url):
@@ -57,85 +61,116 @@ def nettoyer(bloc):
     return "\r\n".join(lignes)
 
 
-def evenements_existants():
-    """Réunions déjà présentes dans finances.ics (pour garder l'historique)."""
-    if not FICHIER.exists():
-        return {}
-    contenu = FICHIER.read_text(encoding="utf-8")
-    return {champ(b, "UID"): b for b in RE_VEVENT.findall(contenu) if champ(b, "UID")}
-
-
-def main():
-    # 1. Relever les liens .ics sur les pages récentes de l'agenda
-    liens = {}
-    for page in range(1, NB_PAGES + 1):
-        url = f"{AGENDA_URL}?order=dateDebut,desc&page={page}&limit=10"
-        try:
-            contenu = telecharger(url)
-        except Exception as e:
-            print(f"Page {page} inaccessible : {e}", file=sys.stderr)
-            if page == 1:
-                sys.exit(1)
-            break
-        for date, ident in RE_LIEN_ICS.findall(contenu):
-            liens[ident] = date
-        time.sleep(PAUSE)
-
-    if not liens:
-        print("Aucune réunion trouvée : la structure de la page a peut-être changé.",
-              file=sys.stderr)
-        sys.exit(1)
-    print(f"{len(liens)} réunions trouvées sur l'agenda.")
-
-    # 2. Télécharger chaque .ics de réunion
+def recuperer_ics(liens):
+    """{identifiant: date} -> {UID: VEVENT nettoyé}"""
     frais = {}
-    for ident, date in liens.items():
-        url = f"https://www2.assemblee-nationale.fr/agendas/ics/{date}/reunion/{ident}"
+    for ident, jour in liens.items():
         try:
-            ics = telecharger(url)
+            ics = telecharger(ICS_URL.format(jour, ident))
         except Exception as e:
-            print(f"Réunion {ident} ignorée : {e}", file=sys.stderr)
+            print(f"  {ident} ignoré : {e}", file=sys.stderr)
             continue
         for bloc in RE_VEVENT.findall(ics):
             frais[champ(bloc, "UID") or ident] = nettoyer(bloc)
         time.sleep(PAUSE)
+    return frais
 
-    if not frais:
-        print("Aucun fichier .ics récupéré.", file=sys.stderr)
-        sys.exit(1)
 
-    # 3. Fusionner avec l'historique :
-    #    - réunions antérieures à la période relue : conservées telles quelles ;
-    #    - réunions dans la période relue mais disparues du site : retirées
-    #      (réunion annulée).
-    debut_periode = min(liens.values()).replace("-", "")
+def ecrire_calendrier(fichier, nom, source, frais, debut_periode):
+    """
+    Fusionne avec le fichier existant puis l'écrit :
+      - événements antérieurs à la période relue : conservés (historique) ;
+      - événements de la période relue disparus du site : retirés (annulés).
+    debut_periode : 'AAAAMMJJ'
+    """
+    fichier = Path(fichier)
     tous = {}
-    for uid, bloc in evenements_existants().items():
-        dt = champ(bloc, "DTSTART") or ""
-        if dt[:8] < debut_periode:
-            tous[uid] = bloc
+    if fichier.exists():
+        for bloc in RE_VEVENT.findall(fichier.read_text(encoding="utf-8")):
+            uid = champ(bloc, "UID")
+            if uid and (champ(bloc, "DTSTART") or "")[:8] < debut_periode:
+                tous[uid] = bloc
     tous.update(frais)
 
-    # 4. Écrire le calendrier, trié par date
     tries = sorted(tous.values(), key=lambda b: champ(b, "DTSTART") or "")
     maintenant = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     sortie = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//agenda-cofi//FR",
+        "PRODID:-//agenda-an//FR",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{NOM_CALENDRIER}",
+        f"X-WR-CALNAME:{nom}",
         "X-WR-TIMEZONE:Europe/Paris",
         "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
         "X-PUBLISHED-TTL:PT1H",
-        f"X-WR-CALDESC:Généré automatiquement le {maintenant} depuis {AGENDA_URL}",
-    ]
-    sortie += tries
-    sortie.append("END:VCALENDAR")
-    FICHIER.write_text("\r\n".join(sortie) + "\r\n", encoding="utf-8", newline="")
-    print(f"{FICHIER} écrit : {len(tries)} réunions ({len(frais)} mises à jour).")
+        f"X-WR-CALDESC:Généré automatiquement le {maintenant} depuis {source}",
+    ] + tries + ["END:VCALENDAR"]
+    fichier.write_text("\r\n".join(sortie) + "\r\n", encoding="utf-8", newline="")
+    print(f"  {fichier} écrit : {len(tries)} événements ({len(frais)} mis à jour).")
+
+
+# --- Commission des finances -----------------------------------------------
+def commission_finances():
+    print("Commission des finances")
+    liens = {}
+    for page in range(1, FINANCES_NB_PAGES + 1):
+        url = f"{FINANCES_URL}?order=dateDebut,desc&page={page}&limit=10"
+        try:
+            contenu = telecharger(url)
+        except Exception as e:
+            print(f"  page {page} inaccessible : {e}", file=sys.stderr)
+            if page == 1:
+                return False
+            break
+        for jour, ident in RE_LIEN_ICS.findall(contenu):
+            liens[ident] = jour
+        time.sleep(PAUSE)
+
+    if not liens:
+        print("  aucune réunion trouvée : la page a peut-être changé.", file=sys.stderr)
+        return False
+    frais = recuperer_ics(liens)
+    if not frais:
+        return False
+    ecrire_calendrier("finances.ics", "Commission des finances – AN", FINANCES_URL,
+                      frais, min(liens.values()).replace("-", ""))
+    return True
+
+
+# --- Séance publique --------------------------------------------------------
+def seance_publique():
+    print("Séance publique")
+    aujourdhui = date.today()
+    premier = aujourdhui - timedelta(days=SEANCE_JOURS_AVANT)
+    liens, pages_lues = {}, 0
+    for i in range(SEANCE_JOURS_AVANT + SEANCE_JOURS_APRES + 1):
+        jour = (premier + timedelta(days=i)).isoformat()
+        try:
+            contenu = telecharger(AGENDA_JOUR_URL.format(jour))
+            pages_lues += 1
+        except Exception as e:
+            print(f"  agenda du {jour} inaccessible : {e}", file=sys.stderr)
+            continue
+        # Les séances publiques ont un identifiant en « …IDS… »
+        # (les réunions de commission sont en « …IDC… »).
+        for j, ident in RE_LIEN_ICS.findall(contenu):
+            if re.search(r"IDS\d+$", ident):
+                liens[ident] = j
+        time.sleep(PAUSE)
+
+    if pages_lues == 0:
+        print("  agenda général inaccessible.", file=sys.stderr)
+        return False
+    frais = recuperer_ics(liens)
+    # Hors session (été), il peut n'y avoir aucune séance : ce n'est pas une erreur.
+    ecrire_calendrier("seance.ics", "Séance publique – AN",
+                      "https://www.assemblee-nationale.fr/dyn/seance-publique",
+                      frais, premier.strftime("%Y%m%d"))
+    return True
 
 
 if __name__ == "__main__":
-    main()
+    ok_finances = commission_finances()
+    ok_seance = seance_publique()
+    sys.exit(0 if (ok_finances and ok_seance) else 1)
